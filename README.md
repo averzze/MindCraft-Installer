@@ -55,9 +55,6 @@ The Mindcraft Installer is a Python-based tool designed to simplify the installa
      mindcraft_installer.exe
      ```
 
-3. **Follow the Prompts**:
-   - The executable will semi-automate the installation process.
-
 ## Post-Installation
 
 1. **Edit `keys.json`**:
