@@ -59,7 +59,7 @@ The Mindcraft Installer is a Python-based tool designed to simplify the installa
 
 1. **Edit `keys.json`**:
    - Navigate to the installation directory (default: `~/Desktop/mindcraft`).
-   - Open `keys.json` and add your API keys for supported services (e.g., OpenAI, Gemini, Anthropic). Refer to the `README.md` in the Mindcraft repository for details.
+   - Open `keys.json` and add your API keys for supported services (e.g., OpenAI, Gemini, Anthropic). Refer to the `README.md` in the [Mindcraft](https://github.com/kolbytn/mindcraft) repository for details.
 
 2. **Start a Minecraft World**:
    - Launch Minecraft and open a world to LAN on port `55916`.
@@ -77,19 +77,6 @@ The Mindcraft Installer is a Python-based tool designed to simplify the installa
 - `installer_utils.py`: Utility functions and constants for the installer.
 - `installer_dependencies.py`: Functions for checking and installing dependencies.
 - `installer_setup.py`: Functions for setting up the Mindcraft project.
-- `build_installer_exe.py`: Script to build a standalone executable for Windows using PyInstaller.
-
-## Building the Executable (For Developers)
-
-To create a standalone executable for Windows:
-
-1. Ensure all required files (`mindcraft_installer.py`, `installer_utils.py`, `installer_dependencies.py`, `installer_setup.py`) are in the same directory.
-2. Run:
-   ```bash
-   python build_installer_exe.py
-   ```
-3. The executable will be created in the `dist` folder and copied to the current directory.
-4. Upload the generated `mindcraft_installer.exe` to the GitHub Releases section for distribution.
 
 ## Troubleshooting
 
